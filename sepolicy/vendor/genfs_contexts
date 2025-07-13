@@ -1,0 +1,3 @@
+# Extcon
+genfscon sysfs /devices/platform/soc/171c0000.slim/tavil-slim-pgd/tavil_codec/extcon/extcon100 u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/soc/a88000.i2c/i2c-0/0-0034/extcon/extcon5/cable.0/name       u:object_r:sysfs_extcon:s0
