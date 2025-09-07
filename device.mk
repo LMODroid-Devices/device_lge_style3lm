@@ -25,7 +25,7 @@ $(call inherit-product, device/lge/sdm845-common/sdm845.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-lmodroid
 
 PRODUCT_PACKAGES += \
     FrameworksOverlayStyle3

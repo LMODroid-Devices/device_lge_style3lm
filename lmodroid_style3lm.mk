@@ -25,13 +25,13 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 $(call inherit-product, device/lge/style3lm/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Device identifiers
-PRODUCT_NAME := lineage_style3lm
+PRODUCT_NAME := lmodroid_style3lm
 PRODUCT_DEVICE := style3lm
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE

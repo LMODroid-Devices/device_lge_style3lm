@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_style3lm.mk
+    $(LOCAL_DIR)/lmodroid_style3lm.mk
