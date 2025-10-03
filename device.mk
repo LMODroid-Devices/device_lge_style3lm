@@ -52,6 +52,9 @@ PRODUCT_COPY_FILES += \
     device/lge/sdm845-common/rootdir/etc/fstab.dynamic:$(TARGET_COPY_OUT_RAMDISK)/fstab.style3lm \
     device/lge/sdm845-common/rootdir/etc/fstab.dynamic:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.style3lm
 
+# LiveDisplay
+$(call soong_config_set,livedisplay_lge,enable_se,true)
+
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-cxd-RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-cxd-RF.conf \
